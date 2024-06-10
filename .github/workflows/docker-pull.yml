@@ -18,11 +18,11 @@ on:
       TARGET_REPOSITORY:
         description: '空间名称'
         required: true
-        default: 'aopkcn'
+        default: 'byaiang'
       ARCH:
         description: '系统架构'
         required: true
-        default: 'amd64'
+        default: 'arm/v7'
         type: choice
         options:
           - amd64
